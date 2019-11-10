@@ -1,0 +1,41 @@
+.flesh-fixed {
+    position:fixed; 
+    bottom: 5%; 
+    right: 5%; 
+    width: auto;
+    z-index:9999; 
+    border-radius:15px
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .flesh-fixed{
+        left:5%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .flesh-fixed{
+        left:5%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .flesh-fixed{
+        left:auto;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
